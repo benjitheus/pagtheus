@@ -10,6 +10,9 @@ img{
 ul{
     list-style-type: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /*=== Aplicando CSS al encabezado===*/
 #logo{
@@ -58,6 +61,26 @@ ul{
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
+
+    /*Aplicando css al footer*/
+    #piePagina{
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr 0.5fr;
+        justify-items: center;
+        align-items: center;
+        background-color: blue;
+        color: white;
+    }
+    #redesSociales{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+    }
+    ion-icon{
+        color: white;
+        font-size: 2rem;
+    }
+
 
 
 }
